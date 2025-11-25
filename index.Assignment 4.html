@@ -1,0 +1,172 @@
+<!--index.html-->
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8"/>
+            <meta
+            <title>CE Course / instructor Evaluation</title>
+            <link rel="Stylesheet" href="style.css" />
+        </head>
+        <body>
+            <header class="banner">
+                <a href="https://www.centennialcollege.ca" target="_blank"
+               <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Centennial_College_logo.png/320px-Centennial_College_logo.png" alt="Centennial College Logo" />
+            </a>
+            </h1>Continuing Education Course / instructor Evaluation</h1>
+             </header>
+            <form class="evaluation-form"
+            <section>
+                <h2>Course Information</h2>
+                <label>Course Name / Code: <input type="text" name="course" /></label>
+                <p>Semester:</p>
+                <label><input type="radio" name="semester" value="Fall"> Fall</label>
+                <label><input type="radio" name="semester" value="Winter"> Winter</label>
+                <label><input type="radio" name="semester" value="Spring/Summer"> Spring/Summer</label>
+
+                <label>Year: <input type="Text" name="year"/></label>
+            </section>
+
+            <section>
+                <h2>instructor</h2>
+                <label>Instructor Name: <input type="text" name="instructor" /></label>
+
+
+                <h3>1. Knowledge of Subject</h3>
+                <label><input type="radio" name="q1" value="Excellent"> Excellent</label>
+                <label><input type="radio" name="q1" value="Good"> Good</label>
+                <label><input type="radio" name="q1" value="Fair"> Fair</label>
+                <label><input type="radio" name="q1" value="Not Satisfactory"> Not Satisfactory</label>
+
+                <h3>2. Helpfulness</h3>
+                <label><input type="radio" name="q2" value="Excellent"> Excellent</label>
+                <label><input type="radio" name="q2" value="Good"> Good</label>
+                <label><input type="radio" name="q2" value="Fair"> Fair</label>
+                <label><input type="radio" name="q2" value="Not Satisfactory"> Not Satisfactory</label>
+
+                <h3>3. Courtesy & Respect</h3>
+                <label><input type="radio" name="q3" value="Excellent"> Excellent</label>
+                <label><input type="radio" name="q3" value="Good"> Good</label>
+                <label><input type="radio" name="q3" value="Fair"> Fair</label>
+                <label><input type="radio" name="q3" value="Not Satisfactory"> Not Satisfactory</label>
+
+                <h3>4. Communication Skills</h3>
+                <label><input type="radio" name="q4" value="Excellent"> Excellent</label>
+                <label><input type="radio" name="q4" value="Good"> Good</label>
+                <label><input type="radio" name="q4" value="Fair"> Fair</label>
+                <label><input type="radio" name="q4" value="Not Satisfactory"> Not Satisfactory</label>
+
+                <h3>5. Overall Performance</h3>
+                <label><input type="radio" name="q5" value="Excellent"> Excellent</label>
+                <label><input type="radio" name="q5" value="Good"> Good</label>
+                <label><input type="radio" name="q5" value="Fair"> Fair</label>
+                <label><input type="radio" name="q5" value="Not Satisfactory"> Not Satisfactory</label>
+            </section>
+
+            <section>
+                <h2>Course</h2>
+                <h3>6. How would you rate the course material?</h3>
+                <label><input type="radio" name="q6" value="Excellent"> Excellent</label>
+                <label><input type="radio" name="q6" value="Good"> Good</label>
+                <label><input type="radio" name="q6" value="Fair"> Fair</label>
+                <label><input type="radio" name="q6" value="Not Satisfactory"> Not Satisfactory</label>
+
+                 <h3>7. Met your expectations?</h3>
+                <label><input type="radio" name="q7" value="Excellent"> Excellent</label>
+                <label><input type="radio" name="q7" value="Good"> Good</label>
+                <label><input type="radio" name="q7" value="Fair"> Fair</label>
+                <label><input type="radio" name="q7" value="Not Satisfactory"> Not Satisfactory</label>
+
+                 <h3>8. How would you rate this course overall?</h3>
+                <label><input type="radio" name="q8" value="Excellent"> Excellent</label>
+                <label><input type="radio" name="q8" value="Good"> Good</label>
+                <label><input type="radio" name="q8" value="Fair"> Fair</label>
+                <label><input type="radio" name="q8" value="Not Satisfactory"> Not Satisfactory</label>
+            </section>
+
+            <section>
+                <h2>General Information</h2>
+                <h3>9. Was the course outline explained?</h3>
+                <label><input type="radio" name="q9" value="Yes"> Yes</label>
+                <label><input type="radio" name="q9" value="No"> No</label>
+                <label><input type="radio" name="q9" value="Not Sure"> Not Sure</label>
+
+                <h3>10. Would you recommend this course?</h3>
+                <label><input type="radio" name="q9" value="Yes"> Yes</label>
+                <label><input type="radio" name="q9" value="No"> No</label>
+            </section>
+
+            <section>
+                <h2>Any Other Comments</h2>
+                <label>What is the best thing about this course?
+                    <textarea name="best"></textarea>
+                </label>
+                <label>How could we improve this course?
+                    <textarea name="improve"></textarea>
+                </label>
+            </section>
+            
+            <button type="submit" class="submit-btn">Submit Evaluation</button>
+        </form>
+        </body>
+    </html>
+    /*-------------------------------------------------------------------- *
+    /*style.css */
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .banner {
+            background: #006341;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+         .banner img{
+             width: 180px;
+        }
+
+        .evaluation-form {
+            background: white;
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2)
+        }
+
+        section {
+            margin-bottom:30px;
+        }
+
+        h2 {
+            border-bottom: 2px soild #006341
+            padding-bottom 5px;
+        }
+
+        label {
+            display: block;
+            margin: 80px;
+            resize: vertical;
+        }
+
+        .submit-btn {
+            background: #006341;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border: radius 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .submit-btn:hover {
+            background: #004f32;
+        }
+    </style>
+</DOCTYPE>
